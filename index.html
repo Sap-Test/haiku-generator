@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haiku Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <h1> Haiku Generator</h1>
+
+    <h5> Enter a word separating syllables with dash(-)</h5>
+    <br>
+    <label for ="word"> Enter Word</label>
+    <input type = "text" name="word" id="word">
+    <br><br>
+
+    <button id="addWord">Add Word</button>
+    <br><br>
+    <button id="generate">Generate!</button>
+    <br><br>
+    <p id ="error"></p>
+
+
+    <h5 id="firstLine"></h5>
+    <h5 id="secondLine"></h5>
+    <h5 id="thirdLine"></h5>
+
+<!-- jQuery first -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<!-- Popper and Bootstrap second -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Our code last -->
+<script src="haiku.js"></script>
+</body>
+</html>
